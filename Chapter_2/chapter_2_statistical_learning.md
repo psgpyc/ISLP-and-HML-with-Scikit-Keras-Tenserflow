@@ -1,6 +1,6 @@
-## Conceptual
+# Conceptual Questions
 
-### Question 1:
+## Question 1:
 
 For each of parts (a) through (d), indicate whether we would generally
 expect the performance of a fexible statistical learning method to be
@@ -28,7 +28,9 @@ high.**
 
 In this case, we expect flexible model to perfrom **worse**. The variance increases as the flexibility increases.
 
-### Question 2:
+
+
+## Question 2:
 
 Explain whether each scenario is a classifcation or regression problem, and indicate whether we are most interested in inference or prediction. Finally, provide n and p
 
@@ -53,11 +55,7 @@ This is a regression problem, as we are trying to predict a continuous variable 
 
 
 
-
-
-
-
-### Question 3:
+## Question 3:
 
 We now revisit bias-variance decomposition.
 
@@ -88,11 +86,9 @@ The Test error follows a u-shaped curve. Initially, the test error decreases as 
 
         
 
-### Question 4:
+## Question 4:
 
 You will now think of some real-life applications for statistical learning.
-
-
 
 
 **(a) Describe three real-life applications in which *classification* might be useful. Describe the response, as well as the predictores. Is the goal of each application inference or prediction? Explain your answer.**
@@ -158,7 +154,9 @@ The three real-life applications:
 2. Cluster Analysis for grouping customers into different segments based on their purchasing habit like category_of_purchase, purchasing_amount, return/refund types and frequency
 3. Clustering differnt treaking routes in Nepal based on popularity amongst the treakers.
 
-### Question 5
+
+
+## Question 5
 
 What are the advantages and disadvantages of a very flexible (versus a less flexible) approach for regression or classification? 
 
@@ -189,7 +187,8 @@ Computationally demanding.
 3. High variance of error terms.
 
 
-### Question 6
+
+## Question 6
 
 Describe the difference between a parametric and a non-parametric statistical learning approach. What are the advantages of a parametric approach to regression or classification (as opposed to a non-parametric approach)? What are its disadvantages?
 
@@ -231,11 +230,13 @@ These models are computationally intensive.
 **Non Parametric Models** are preferred when we have larger sample dataset with high number of predictors.
 
 
-### Question 7
+
+## Question 7
 
 The table below provides a training data set contains six observations, three predictors, and one qualitative response variable.
 
-![image.png](a526d4ef-eda8-4f1b-b60d-0d1963a2f625.png)
+![image](https://github.com/user-attachments/assets/a2946d68-0277-4729-bfb1-c82d058d866a)
+
 
 Suppose we wish to use this data set to make a prediction for Y when X<sub>1</sub> = X<sub>2</sub> = X<sub>3</sub> = 0 using k-nearest neighbour.
 
@@ -264,100 +265,13 @@ df.index = np.arange(1,7)
 df['euc_distance'] = np.sqrt(df['X1']**2+df['X2']**2+df['X3']**2)
 ```
 
-
-```python
-
-```
-
 **(b) What is our prediction wuth k = 1? Why?**
 
 
 ```python
 df.sort_values(by='euc_distance')
 ```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>X1</th>
-      <th>X2</th>
-      <th>X3</th>
-      <th>Y</th>
-      <th>euc_distance</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>5</th>
-      <td>-1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>Green</td>
-      <td>1.414214</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>Red</td>
-      <td>1.732051</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2</td>
-      <td>0</td>
-      <td>0</td>
-      <td>Red</td>
-      <td>2.000000</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>0</td>
-      <td>1</td>
-      <td>2</td>
-      <td>Green</td>
-      <td>2.236068</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>0</td>
-      <td>3</td>
-      <td>0</td>
-      <td>Red</td>
-      <td>3.000000</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>0</td>
-      <td>1</td>
-      <td>3</td>
-      <td>Red</td>
-      <td>3.162278</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
+![image](https://github.com/user-attachments/assets/d75a0e53-b26e-4cf9-a837-515060f90699)
 
 For k=1, our prediction is Green. Green is the closest neighbour.
 
@@ -374,6 +288,3 @@ A highly nonlinear decision boundary indicates a complex, irregular separation b
 Large K values tend to smooth out the decision boundary, making it more linear and less able to capture the nuances of a highly nonlinear Bayes decision boundary
 
 
-```python
-
-```
