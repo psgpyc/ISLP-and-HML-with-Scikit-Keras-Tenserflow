@@ -6,6 +6,7 @@ This repository contains my solutions to the exercises from the book "An Introdu
 
 - [About](#about)
 - [Repository Structure](#repository-structure)
+- [Solutions](#Chapter-wise-solutions)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
 - [License](#license)
@@ -21,6 +22,9 @@ The repository is organized as follows:
 - `Chapter_X/`: Folders for each chapter, containing solutions to that chapter's exercises
 - `data/`: Any datasets used in the exercises
 - `Chapter_X/notebooks/`: Jupyter notebooks with additional explanations or visualizations
+
+## Chapter Wise Solutions 
+- [Chapter 2 Conceptual Solution](Chapter_2/chapter_2_statistical_learning.md)
 
 ## How to Use
 
