@@ -25,6 +25,7 @@ The repository is organized as follows:
 
 ## Chapter Wise Solutions 
 - [Chapter 2 Conceptual Solution](Chapter_2/chapter_2_statistical_learning.md)
+- [Chapter 2 Applied Solution](Chapter_2/notebooks/applied.ipynb)
 
 ## How to Use
 
