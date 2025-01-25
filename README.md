@@ -42,7 +42,7 @@ Each folder contains scripts, Jupyter notebooks, and datasets related to the res
   - [Chapter 2 Conceptual Solution](ISLP/Chapter_2/chapter_2_statistical_learning.md)
   - [Chapter 2 Applied Solution](ISLP/Chapter_2/notebooks/applied.ipynb)
 - **[Andrew Ng's Machine Learning Course (ML-Coursera)](ML-Coursera/)**
-  - [Solutions and Implementations](ML-Coursera/)
+  - [Solutions and Implementations](ML-COURSERA/)
 - **[Models From Scratch](Models From Scratch/)**
   - [Implementation of ML Models](Models From Scratch/)
 
