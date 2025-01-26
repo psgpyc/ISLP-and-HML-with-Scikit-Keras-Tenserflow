@@ -37,7 +37,9 @@ Each folder contains scripts, Jupyter notebooks, and datasets related to the res
 ## Resources
 
 - `HML/`: Resources and solutions from the book "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow."
+  - [Chapter-wise Solutions and Implementations](HML/) 
 - `ISLP/`: Solutions from the book "An Introduction to Statistical Learning with Python (ISLP)."
+  - [Chapter-wise Solutions and Implementations](ISLP/) 
 - `ML-Coursera/`: Solutions and projects from Andrew Ng’s Machine Learning course on Coursera.
   - [Anomaly Detection](ML-COURSERA/AnomalyDetection/)
   - [Clustering](ML-COURSERA/Clustering/)
@@ -49,7 +51,7 @@ Each folder contains scripts, Jupyter notebooks, and datasets related to the res
   - [Recommender Systems](ML-COURSERA/RECOMMENDERSYSTEMS/)
     
 - `Models From Scratch/`: Implementations of machine learning models built from scratch, without using pre-built libraries.
-  - [Linear Regression] (ModelsFromScratch/)
+  - [Linear Regression](Models-From-Scratch/)
 
 ## How to Use
 
